@@ -1,0 +1,31 @@
+{
+  "name": "multi-vendor-marketplace",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "prisma": "prisma"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.6.0",
+    "env": "^0.0.2",
+    "next": "14.0.0",
+    "pg": "latest",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "redis": "^4.7.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.1",
+    "@types/react": "^19.1.2",
+    "@types/react-dom": "^19.1.2",
+    "eslint": "latest",
+    "eslint-config-next": "latest",
+    "prisma": "^6.6.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
