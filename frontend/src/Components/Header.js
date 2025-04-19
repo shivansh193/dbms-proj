@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import SearchBar from './SearchBar';
+import SearchBar from 'src/SearchBar';
 
 const Header = ({ user, userType, cartItems, setUser, setUserType }) => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);

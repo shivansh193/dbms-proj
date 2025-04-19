@@ -1,35 +1,35 @@
 import React, { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Header from './components/Header';
-import Footer from './components/Footer';
+import Header from 'src/components/Header';
+import Footer from 'src/components/Footer';
 
 // Customer Pages
-import Home from './pages/customer/Home';
-import SearchResults from './pages/customer/SearchResults';
-import ProductListing from './pages/customer/ProductListing';
-import ProductDetail from './pages/customer/ProductDetail';
-import VendorProfile from './pages/customer/VendorProfile';
-import ShoppingCart from './pages/customer/ShoppingCart';
-import Checkout from './pages/customer/Checkout';
-import Account from './pages/customer/Account';
-import LocationPicker from './pages/customer/LocationPicker';
-import Wishlist from './pages/customer/Wishlist';
-import CategoryBrowse from './pages/customer/CategoryBrowse';
-import Reviews from './pages/customer/Reviews';
+import Home from 'src/pages/customer/Home';
+import SearchResults from 'src/pages/customer/SearchResults';
+import ProductListing from 'src/pages/customer/ProductListing';
+import ProductDetail from 'src/pages/customer/ProductDetail';
+import VendorProfile from 'src/pages/customer/VendorProfile';
+import ShoppingCart from 'src/pages/customer/ShoppingCart';
+import Checkout from 'src/pages/customer/Checkout';
+import Account from 'src/pages/customer/Account';
+import LocationPicker from 'src/pages/customer/LocationPicker';
+import Wishlist from 'src/pages/customer/Wishlist';
+import CategoryBrowse from 'src/pages/customer/CategoryBrowse';
+import Reviews from 'src/pages/customer/Reviews';
 
 // Vendor Pages
-import VendorDashboard from './pages/vendor/Dashboard';
-import ProductManagement from './pages/vendor/ProductManagement';
-import OrderManagement from './pages/vendor/OrderManagement';
-import StoreProfile from './pages/vendor/StoreProfile';
-import VendorAnalytics from './pages/vendor/VendorAnalytics';
-import PaymentHistory from './pages/vendor/PaymentHistory';
+import VendorDashboard from 'src/pages/vendor/Dashboard';
+import ProductManagement from 'src/pages/vendor/ProductManagement';
+import OrderManagement from 'src/pages/vendor/OrderManagement';
+import StoreProfile from 'src/pages/vendor/StoreProfile';
+import VendorAnalytics from 'src/pages/vendor/VendorAnalytics';
+import PaymentHistory from 'src/pages/vendor/PaymentHistory';
 
 // Admin Pages
-import AdminDashboard from './pages/admin/AdminDashboard';
-import VendorManagement from './pages/admin/VendorManagement';
-import CategoryManagement from './pages/admin/CategoryManagement';
-import ContentManagement from './pages/admin/ContentManagement';
+import AdminDashboard from 'src/pages/admin/AdminDashboard';
+import VendorManagement from 'src/pages/admin/VendorManagement';
+import CategoryManagement from 'src/pages/admin/CategoryManagement';
+import ContentManagement from 'src/pages/admin/ContentManagement';
 
 function App() {
   const [cartItems, setCartItems] = useState([]);
