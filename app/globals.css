@@ -1,2 +1,4 @@
-/* Global styles placeholder */
-body { margin: 0; font-family: Inter, sans-serif; }
+/* globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
